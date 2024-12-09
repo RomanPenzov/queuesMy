@@ -1,2 +1,5 @@
 venv/
-logs/labels_log.txt
+logs/
+features/src/features.old
+model/src/model.old
+metric/src/metric.old
