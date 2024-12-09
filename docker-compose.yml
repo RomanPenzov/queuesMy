@@ -36,9 +36,6 @@ services:
       context: ./plot
     restart: always
     depends_on:
-      - rabbitmq
-      - features
-      - model
       - metric
     volumes:
       - ./logs/:/usr/src/app/logs/
